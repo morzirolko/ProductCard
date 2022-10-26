@@ -1,0 +1,79 @@
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+}
+*,::before,::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: var(--Cream);
+    margin: 0;
+}
+img{
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit:cover;
+}
+h1{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    margin: 0;
+}
+p{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#perfume{
+    margin-top: 0px;
+    letter-spacing: 4px;
+    opacity: 0.7;
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--Cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: var(--White);
+    width: 40vw;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    border-radius: 15px;
+    
+}
+button{
+    background-color: var(--Darkcyan);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: var(--White);
+    text-align: center;
+}
+svg{
+    margin-right: 10px;
+}
+.cart{
+    background-color: var(--Darkcyan);
+}
+.cardtext{
+    padding:30px;
+    text-align: left;
+    box-sizing: inherit;
+}
