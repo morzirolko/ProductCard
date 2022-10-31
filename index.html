@@ -16,8 +16,11 @@
   <div class="container">
     <div class="card">
       <div class="cardimage">
-        <img id="mobile" src="./images/image-product-mobile.jpg" alt="Chanel perfume flask">
-        <img id="desktop" src="./images/image-product-desktop.jpg" alt="Chanel perfume flask">
+        <picture class="cardimage">
+          <source media="(min-width: 650px)" srcset="./images/image-product-desktop.jpg" alt="Chanel perfume flask">
+          <source media="(min-width: 476px)" srcset="./images/image-product-mobile.jpg" alt="Chanel perfume flask">
+          <img src="./images/image-product-mobile.jpg" alt="Chanel perfume flask">
+        </picture>
       </div>
       <div class="cardtext">
         <p id="perfume">PERFUME</p>
